@@ -1,0 +1,155 @@
+
+
+.SearchBar input {
+  box-shadow: 2px 2px 12px 7px rgba(172, 149, 149, 0.637);
+  width: 40%;
+  font-size: 18px;
+  padding: 18px 10px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  color: gray;
+  margin-bottom: 50px;
+  margin-top: 30px;
+}
+
+.SearchBar button {
+  font-size: 18px;
+  padding: 20px 15px;
+  background-color: rgba(172, 149, 149, 0.637);
+  border: none;
+  margin-left: 30px;
+  border-radius: 5px;
+}
+
+.tableHeader {
+  width: 80%;
+  display: flex;
+  margin: auto;
+  border: 1px solid silver;
+  border-bottom: none;
+  }
+
+.headerCont > h1 {
+  color: #6c757d;
+}
+
+.tableHeader div:nth-child(1),
+.tableHeader div:nth-child(2),
+.tableHeader div:nth-child(3),
+.tableHeader div:nth-child(4),
+.tableHeader div:nth-child(5) {
+  width: 20vw;
+  border: 1px solid silver;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  font-weight: 700;
+  background-color: #ebebeb;
+  color: #6c757d;
+}
+
+.tableRows {
+  width: 80%;
+  display: flex;
+  text-decoration: none;
+  margin: auto;
+  border: 1px solid silver;
+  border-bottom: none;
+  border-top: none;
+}
+
+.tableRows>div {
+  text-align: center;
+}
+.tableRows:hover {
+  background-color: #cfcfdf;
+}
+
+.tableRows div:nth-child(1),
+.tableRows div:nth-child(2),
+.tableRows div:nth-child(3),
+.tableRows div:nth-child(4){
+  width: 20vw;
+  border: 1px solid tomato;
+  height: 7vh;
+  display: flex;
+  /* align-items: center; */
+  color:red
+}
+
+.tableRows div:nth-child(5) {
+  width: 20vw;
+  border: 1px solid tomato;
+  height: 7vh;
+  display: flex;
+  /* align-items: center; */
+}
+
+
+.paginationCont {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.paginationCont button:nth-child(1),
+.paginationCont button:nth-child(2) {
+  font-size: 18px;
+  padding: 8px 15px;
+}
+
+.paginationCont button:nth-child(1) {
+  border: 1px solid gray;
+  color: gray;
+  transition: 300ms;
+}
+
+.paginationCont button:nth-child(1):hover {
+  border: 1px solid gray;
+  background-color: gray;
+  color: white;
+}
+
+.paginationCont button:nth-child(2) {
+  border: 1px solid gray;
+  color: gray;
+  transition: 300ms;
+}
+
+.paginationCont button:nth-child(2):hover {
+  border: 1px solid gray;
+  background-color: gray;
+  color: white;
+}
+
+.showCardCont {
+  /* border: 1px solid black; */
+  width: 80%;
+  margin: auto;
+  text-align: right;
+  margin-bottom: 20px;
+}
+
+.showCardGrid i,
+.showCardRow i {
+  font-size: 35px;
+  cursor: pointer;
+  color: #6c757d;
+}
+
+.cardCont {
+  /* border: 1px solid red; */
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: #ebebeb;
+  padding: 20px 5px;
+}
+
+
+
+
